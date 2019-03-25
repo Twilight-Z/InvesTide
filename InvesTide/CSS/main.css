@@ -1,0 +1,62 @@
+* {
+    font-size: 14px;
+    /* color: #666; */
+}
+a:hover {
+    color: #dc3545;
+}
+/* i.fas {
+    font-size: 20px;
+} */
+i.fas.text-black-50 {
+    opacity: .6;
+    cursor: pointer;
+    transition: .9s;
+}
+i.fas.text-black-50:hover {
+    opacity: 1;
+}
+
+.ellipse {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Sd, .Shadow {
+    box-shadow: 0 1px 7px rgba(0,0,0,.06);
+    transition: .3s;
+}
+.Shadow:hover {
+    box-shadow: 2px 4px 6px rgba(128,128,128,.4);
+}
+.col-lg-4>div.Shadow:hover {
+    transform: translateY(-10px);
+}
+/* .dark-o {
+    opacity: .6;
+} */
+header .bhk:hover {
+    color: #fff !important;
+    background-color: #dc3545;
+}
+header nav a:hover {
+    font-weight: bolder;
+}
+.overlay-overwrite-bottom {
+    background: -webkit-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,.1),rgba(0,0,0,.5),rgba(0,0,0,7));
+    background: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.1),rgba(0,0,0,.5),rgba(0,0,0,.7));
+}
+
+/* .tab-case> {
+    transition: .6;
+} */
+
+
+/* Sider */
+aside #top {
+    opacity: .5;
+}
+aside #top:hover h4 {
+    color: #000;
+}

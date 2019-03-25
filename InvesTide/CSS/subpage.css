@@ -1,0 +1,6 @@
+.hero1 {
+    width: 100vw;
+    height: 100vh;
+    background: url(../Images/hero-bg01.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
